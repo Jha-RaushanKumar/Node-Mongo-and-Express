@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "41fdd6fa-7346-4efc-8ed9-ac909d2eb831",
+		"name": "Assignment_8",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Home Page",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:800/user/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "800",
+					"path": [
+						"user",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"raushanjha0121@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:800//user/delete",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "800",
+					"path": [
+						"",
+						"user",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:800//user/getAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "800",
+					"path": [
+						"",
+						"user",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Details",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nameupdate\": \"Raushannnnnnssss\",\r\n   \"email\": \"raushanjha9900@gmail.com\",\r\n   \"passwordupdate\": \"Raush^444\"\r\n   \r\n    \r\n    \r\n}\r\n    ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:800/user/edit",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "800",
+					"path": [
+						"user",
+						"edit"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
