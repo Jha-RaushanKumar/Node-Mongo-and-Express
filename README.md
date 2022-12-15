@@ -1,4 +1,9 @@
 ## Topic:(Node, Express & MongoDB)
+
+Author: `Raushan Kumar Jha`  
+Instructor: `Vishal Chawla`
+## INFO 6150 Assignment9
+
 Node, Mongo, and Express (No need for UI, you can run the APIs on postman). Use bcrypt for password security.
 
 1. Create a user which takes 3 parameters full name, email and password. Enforce strong password rule and add validation for email and full name.  
